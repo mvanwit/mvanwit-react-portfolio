@@ -2,6 +2,7 @@ import './App.css';
 import Nav from './Nav.js';
 import Header from './Header.js';
 import About from './About.js';
+import Portfolio from './Portfolio.js';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Nav />
       <Header />
       <About />
+      <Portfolio />
     </div>
   );
 }
