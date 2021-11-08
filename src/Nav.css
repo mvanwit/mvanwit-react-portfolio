@@ -1,10 +1,12 @@
 nav {
-	background-color: rgba(32,32,32,.9);
-	max-width:  1720px;
+	background-color: rgba(32,32,32,0.8);
 	margin: 0 auto;
 	display: grid;
-	grid-template-columns: 2fr 1fr;
+	grid-template-columns: 1fr 2fr;
 	color: white;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 nav ul {
