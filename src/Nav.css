@@ -1,0 +1,49 @@
+nav {
+	background-color: rgba(32,32,32,.9);
+	max-width:  1720px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	color: white;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.logo {
+	grid-column:  1;
+}
+
+.navBar {
+	grid-column: 2;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap:  10px;
+}
+
+#navToggle, .burgerMenu {
+	display: none;
+}
+
+@media only screen and (max-width: 1025px) {
+	.burgerMenu {
+		display: inline-block;
+		font-size: 36px;
+	}
+
+	.navBar {
+		display: none;
+	}
+
+	#navToggle:checked ~ .navBar {
+		display: grid;
+		grid-row: 2;
+	}
+}
