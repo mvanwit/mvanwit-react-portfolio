@@ -13,8 +13,6 @@ class Nav extends React.Component {
 		this.handleScroll = this.handleScroll.bind(this);
 	}
 
-
-
 	handleScroll() {
 		if (window.scrollY > 50) {
 			this.setState({collapse: true});
@@ -40,9 +38,9 @@ class Nav extends React.Component {
 						<input type='checkbox' id='navToggle' />
 						<label htmlFor='navToggle' className='burgerMenu'>&#x2630;</label>
 						<ul className='navbarLinks'>
-							<li><a href='#'>Qui suis-je?</a></li>
-							<li><a href='#'>Portfolio</a></li>
-							<li><a href='#'>Contact</a></li>
+							<li><a href='#about'>Qui suis-je?</a></li>
+							<li><a href='#portfolio'>Portfolio</a></li>
+							<li><a href='#contact'>Contact</a></li>
 						</ul>
 					</div>
 				</div>
