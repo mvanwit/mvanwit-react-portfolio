@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
+import { faFilePdf } from '@fortawesome/free-regular-svg-icons';
 import './Header.css';
 
 
@@ -10,9 +10,11 @@ class Header extends React.Component {
 			<header>
 				<h1>Matthieu Van Wittenberghe</h1>
 				<p>Développeur Web</p>
-				<a href='#' target='_blank'>
+				<a id ='dlcv' href='#' target='_blank'>
 					Mon CV
-					<FontAwesomeIcon icon={faFilePdf} />
+					<br></br>
+					<br></br>
+					<FontAwesomeIcon icon={faFilePdf} size='3x'/>
 				</a>
 			</header>
 		);
