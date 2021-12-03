@@ -11,5 +11,29 @@ header {
 }
 
 h1 {
-	margin-top: 200px;
+	margin: 3em 0 35px;
+  text-transform: uppercase;
+  font-family: 'Montserrat',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 39px;
+}
+
+header p {
+  font-size: 30px;
+}
+
+#dlcv {
+  padding: 10px 30px;
+  border: 2px solid #FCFCFC;
+  display: inline-block;
+  background-color: rgba(32,32,32,0.4);
+  color: #FCFCFC;
+  font-size: 18px;
+  font-weight: bold;
+  transition-duration: 0.5s;
+}
+
+svg {
+  stroke-width: 1px;
 }
