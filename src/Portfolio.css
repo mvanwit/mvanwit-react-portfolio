@@ -1,0 +1,8 @@
+#portfolio {
+    background: url(./assets/image/code.png) center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color : #FCFCFC;
+}
