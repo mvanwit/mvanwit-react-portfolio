@@ -11,7 +11,7 @@ header {
 }
 
 h1 {
-	margin: 3em 0 35px;
+	margin: 30vh 0 35px;
   text-transform: uppercase;
   font-family: 'Montserrat',"Helvetica Neue",Helvetica,Arial,sans-serif;
   letter-spacing: 1px;
@@ -23,8 +23,7 @@ header p {
   font-size: 30px;
 }
 
-#dlcv {
-  padding: 10px 30px;
+header a {
   border: 2px solid #FCFCFC;
   display: inline-block;
   background-color: rgba(32,32,32,0.4);
@@ -32,6 +31,15 @@ header p {
   font-size: 18px;
   font-weight: bold;
   transition-duration: 0.5s;
+}
+
+#dlcv {
+  padding: 10px 30px;
+}
+
+#godown {
+  padding: 0 10px;
+  margin: 18vh 0px 1vh;
 }
 
 svg {
